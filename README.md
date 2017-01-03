@@ -7,7 +7,7 @@ This uses clock_gettime(CLOCK_MONOTONIC,...) to retreive a monotonic timestamp.
 
 Replace calls to time.Now() with time.Unix(0, int64(monotime.Now())).
 
-Courtesy of https://github.com/glycerine/goarista and https://github.com/glycerine/goarista/blob/master/monotime/nanotime.go
+Courtesy of https://github.com/aristanetworks/goarista and https://github.com/aristanetworks/goarista/blob/master/monotime/nanotime.go
 
 Copyright (C) 2016  Arista Networks, Inc.
 LICENSE: Apache2; see LICENSE file.
